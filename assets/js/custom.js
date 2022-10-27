@@ -65,11 +65,11 @@
 					$('.menu-trigger').removeClass('active');
 					$('.header-area .nav').slideUp(200);
 				}
-				// $('html,body').animate({
-				// 	scrollTop: (target.offset().top)
-				// }, 700, 'swing', function () {
-				// 	window.location.hash = targetHash;
-				// });
+				$('html,body').animate({
+					scrollTop: (target.offset().top)
+				}, 700, 'swing', function () {
+					window.location.hash = targetHash;
+				});
 				return false;
 			}
 		}

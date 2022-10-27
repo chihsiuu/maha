@@ -58,8 +58,6 @@
 			var target = $(this.hash);
 			target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
 			if (target.length) {
-			console.log('1');
-
 				var width = $(window).width();
 				if (width < 991) {
 					$('.menu-trigger').removeClass('active');
